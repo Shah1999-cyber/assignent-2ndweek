@@ -261,6 +261,41 @@ main > p {
     color: white;
 }
 /* some fact sector end */
+.crew {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    justify-content: space-between;
+    gap: 10px;
+}
+.grid img {
+    width: 90%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+.grid > h1 {
+    text-align: center;
+    font-family: 'work sans', serif;
+    font-weight: 700;
+    border-bottom: 1px solid gray;
+}
+.grid h3{
+    text-align: center;
+    font-weight: 600;
+    font-family: 'work sans', sans-serif;
+    color: gray;
+}
+.image-name{
+    box-shadow: 4px 4px 4px 0 gray;
+}
+/* crew sectin start */
 /* footer start */
 footer {
     width: 100%;
@@ -312,6 +347,10 @@ footer {
     .nav .name {
         text-align: center;
     
+    }
+    .nav .ul {
+        align-items: centre;
+        background-color: green;
     }
     .nav .menu ul li{
         
@@ -389,5 +428,21 @@ footer {
         width: 70%;
         margin: 10px;
         
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        justify-content: center
+        gap: 5px;
+        align-items: center;
+    }
+    .grid img {
+        height: 50%;
+        width: 70%;
+    }
+    .image-name{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
